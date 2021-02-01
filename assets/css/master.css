@@ -24,6 +24,10 @@ header .header-top, header .header-bot{
 img.logo, .head-row1 i{
   vertical-align: middle;
 }
+.drop-dmenu a{
+  text-decoration: none;
+  padding: 0 15px;
+}
 /*Main*/
 .main-top{
 
@@ -33,20 +37,61 @@ img.logo, .head-row1 i{
   font-size: 4em;
   line-height: 110%;
 }
-.main-top p{
+[class^="did"]{
   line-height: 200%;
-  padding-top: 40px;
+  padding: 40px 0px;
+}
+.did-small{
+  font-size: .8em;
+}
+.did-int{
+  padding: 0px 0px;
+}
+.tx-interno{
+  margin: 20px 0px;
+}
+.light-border{
+  border: 1px solid lightgrey;
+  border-radius: 10px;
 }
 /*LAYOUT*/
 .container{
   width: 70%;
   margin: 0 auto;
 }
+.contain-col{
+  width: 80%;
+  margin: 10px auto;
+}
+
 [class^="btn-"]{
   padding: 5px 10px;
 }
+.btn-border{
+  border-color: #FE775A;
+  color: #FE775A;
+  background-color: white;
+  border-radius: 5px;
+}
 .btn-border-orange{
-  margin-right: 0;
+  border-color: #FE775A;
+  color: white;
+  background-color: #FE775A;
+  border-radius: 5px;
+}
+.btn-border-orange-padd{
+  border-color: #FE775A;
+  color: white;
+  background-color: #FE775A;
+  border-radius: 5px;
+  padding: 20px 20px;
+}
+.v-centered{
+
+}
+.fa-check-circle{
+  color:#FE775A;
+  margin-right: 10px;
 }
 /*layout temporanee*/
 .bg-grey{
@@ -64,8 +109,11 @@ img.logo, .head-row1 i{
 .h3{
   height: 500px;
 }
-.spaced{
+/* .spaced{
   padding: 10px 10px;
+} */
+.pad{
+  padding: 30px;
 }
 
 [class^="col-"]{
@@ -115,18 +163,19 @@ img.logo, .head-row1 i{
   text-align: center;
 }
 
-.light-border{
-  border: 1px solid red;
+.line-deals li{
+  display: inline;
+  padding-right: 20px;
 }
 
 .jumbo-bg{
   background-image: url('../img/jumbotron.png');
   background-position: right;
   background-repeat: no-repeat;
-  background-color: #FFF7F0;
+  background-color: #FFF4EE;
 }
 
-.spacing{
+.spacing-bar{
   height: 85px;
   background-color: #AFEBE4;
   margin-top: -85px;
