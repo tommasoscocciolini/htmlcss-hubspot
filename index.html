@@ -15,7 +15,7 @@
           <div class="row head-row1">
             <div class="col-50 al-left">
               <i class="fas fa-globe"></i>
-              <select class="lang-sel" style="margin-left:-4px;" name="">
+              <select class="lang-sel" style="margin-left:-4px;" name="lang">
                 <option value="" selected>English</option>
                 <option value="">Italiano</option>
               </select>
@@ -23,8 +23,8 @@
             </div>
             <div class="col-50 al-right">
               <i class="fas fa-search" style="color:#03A4BD;"></i>
-              <button class="btn-border" type="button" name="">Log in</button>
-              <button class="btn-border-orange" type="button"  name="">GetHubspotFree</button>
+              <button class="btn-border" type="button" name="log">Log in</button>
+              <button class="btn-border-orange" type="button" name="GetHubspotFree">GetHubspotFree</button>
             </div>
           </div>
         </section>
@@ -57,8 +57,8 @@
             <div class="col-50">
               <h1>There's a better way to grow.</h1>
               <p class="did">Marketing, sales, and service software that helps your business grow without compromise. Because "good for the business" should also mean "good for the custumer". </p>
-              <button class="btn-border-orange-padd" type="button"  name="">GetHubspotFree</button>
-              <span style="display:block;"class="did-small">Get Started with Free tools, and upgrade as you grow.</span>
+              <button class="btn-border-orange-padd" type="button"  name="GetHubspotFree">GetHubspotFree</button>
+              <span style="display:block;" class="did-small">Get Started with Free tools, and upgrade as you grow.</span>
             </div>
           </div>
         </div>
@@ -78,7 +78,7 @@
               <div class="col-25 centered c-grid">
                 <div class="pad">
                   <img height="125" src="./assets/img/book.svg" alt="">
-                  <button class="btn-border-orange-padd tx-interno" type="button"  name="">Learn More</button>
+                  <button class="btn-border-orange-padd tx-interno" type="button" name="learn-more">Learn More</button>
                 </div>
               </div>
               <div class="col-75">
@@ -96,82 +96,179 @@
               </div>
 
 
-        </div>
-        <div class="row">
-          <div class="light-border">
-            <div class="col-33">
-              <div class="contain-col centered">
-                <img height="125" src="./assets/img/buble.svg" alt="">
-                <h3 class="tx-interno">Marketing Hub</h3>
-                <p class="did-int">Marketing software to help you grow traffic, convert more visitors, and run complete inbound marketing campaigns at scale.</p>
-                <hr>
-              </div>
+        </div> <!-- TODO: hr da fare -->
+        <div class="row padded-section">
+          <div class="col-32 light-border">
+            <div class="contain-col pad centered">
+              <img height="115" src="./assets/img/buble.svg" alt="">
+              <h3 class="tx-interno">Marketing Hub</h3>
+              <p class="did-int">Marketing software to help you grow traffic, convert more visitors, and run complete inbound marketing campaigns at scale.</p>
+              <hr style="margin: 30px 0px;">
+              <h4 class="tx-interno">POPULAR FEATURE</h4>
+              <ul class="tx-interno v-list">
+                <li><i class="fas fa-check-circle"></i>Lead Generation</li>
+                <li><i class="fas fa-check-circle"></i>Marketing Automation</li>
+                <li><i class="fas fa-check-circle"></i>Analytics</li>
+              </ul>
+              <button class="btn-border-orange-padd tx-interno" type="button" name="learn-more">Learn More</button>
             </div>
           </div>
-          <div class="light-border">
-            <div class="col-33 h3">
+          <div class="col-2">
 
+          </div>
+          <div class="col-32 light-border">
+            <div class="contain-col centered pad">
+              <img height="115" src="./assets/img/office.svg" alt="">
+              <h3 class="tx-interno">Sales Hub</h3>
+              <p class="did-int">Time-saving sales software that helps you get deeper insights into prospects, automate the task you hate, and close more deals faster.</p>
+              <hr style="margin: 30px 0px;">
+              <h4 class="tx-interno">POPULAR FEATURE</h4>
+              <ul class="tx-interno v-list">
+                <li><i class="fas fa-check-circle"></i>Email Tracking</li>
+                <li><i class="fas fa-check-circle"></i>Meeting Scheduling</li>
+                <li><i class="fas fa-check-circle"></i>Email Automation</li>
+              </ul>
+              <button class="btn-border-orange-padd tx-interno" type="button" name="learn-more">Learn More</button>
             </div>
           </div>
-          <div class="light-border">
-            <div class="col-33 h3">
+          <div class="col-2">
 
+          </div>
+          <div class="col-32 light-border">
+            <div class="contain-col centered pad">
+              <img height="115" src="./assets/img/table.svg" alt="">
+              <h3 class="tx-interno">Service Hub</h3>
+              <p class="did-int">Customers service software to help you connect with customers, exceed explanations, and turn them into promoters that grow your business.</p>
+              <hr style="margin: 30px 0px;">
+              <h4 class="tx-interno">POPULAR FEATURE</h4>
+              <ul class="tx-interno v-list">
+                <li><i class="fas fa-check-circle"></i>Tickets</li>
+                <li><i class="fas fa-check-circle"></i>Customers Feedback</li>
+                <li><i class="fas fa-check-circle"></i>Knowledge Base</li>
+              </ul>
+              <button class="btn-border-orange-padd tx-interno" type="button" name="learn-more">Learn More</button>
             </div>
           </div>
         </div>
       </div>
-      <div class="bg-grey">
-        <div class="container h1"> <!-- inizio bg grey == sezione celeste -->
+
+      <div class="bg-cyan">
+        <div class="container w-font"> <!-- inizio bg grey == sezione celeste -->
 
           <div class="row centered">
-            <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. labore et dolore magna aliqua.</p>
+            <h1>Learn and grow with award-winning support and a thriving community behind you.</h1>
+            <p class="did">You don't have to go it alone. Master the inbound methodology and get the most out of your tools with hubspt's legendary customer support team and a community of thousand of marketing and sales pros just like you.</p>
           </div>
-          <div class="row"> <!-- griglia parte sup -->
-            <div class="col-25 h2 light-border">
 
+          <table>
+
+          </table>
+          <div class="row">
+            <div class="col-25 border-rb centered grid">
+              <div class="cube">
+                <img height="40" src="./assets/img/homepage_community_agency.svg" alt="">
+                <span class="grid-tx">150+</span>
+                <span class="grid-small-tx">HubSpot user groups</span>
+              </div>
             </div>
-            <div class="col-25 h2 light-border">
-
+            <div class="col-25 border-rb centered grid">
+              <div class="cube">
+                <img height="40" src="./assets/img/homepage_community_blog.svg" alt="">
+                <span class="grid-tx">4.5M+</span>
+                <span class="grid-small-tx">HubSpot user groups</span>
+              </div>
             </div>
-            <div class="col-25 h2 light-border">
-
+            <div class="col-25 border-rb centered grid">
+              <div class="cube">
+                <img height="40" src="./assets/img/homepage_community_academy.svg" alt="">
+                <span class="grid-tx">155K+</span>
+                <span class="grid-small-tx">HubSpot user groups</span>
+              </div>
             </div>
-            <div class="col-25 h2 light-border">
-
+            <div class="col-25 centered grid">
+              <div class="cube">
+                <img height="40" src="./assets/img/homepage_community_inbound.svg" alt="">
+                <span class="grid-tx">21K+</span>
+                <span class="grid-small-tx">HubSpot user groups</span>
+              </div>
             </div>
           </div>
-          <div class="row"> <!--  griglia parte inf -->
-            <div class="col-25 h2 light-border">
-
+          <div class="row">
+            <div class="col-25 centered grid">
+              <div class="cube">
+                <img height="40" src="./assets/img/homepage_community_connect.svg" alt="">
+                <span class="grid-tx">200+</span>
+                <span class="grid-small-tx">integrations</span>
+              </div>
             </div>
-            <div class="col-25 h2 light-border">
-
+            <div class="col-25 border-l centered grid">
+              <div class="cube">
+                <img height="40" src="./assets/img/homepage_community_globe.svg" alt="">
+                <span class="grid-tx">6+</span>
+                <span class="grid-small-tx">languages</span>
+              </div>
             </div>
-            <div class="col-25 h2 light-border">
-
+            <div class="col-25 border-l centered grid">
+              <div class="cube">
+                <img height="40" src="./assets/img/homepage_community_followers.svg" alt="">
+                <span class="grid-tx">2.6M+</span>
+                <span class="grid-small-tx">Social followers</span>
+              </div>
             </div>
-            <div class="col-25 h2 light-border">
-
+            <div class="col-25 border-lt centered grid">
+              <div class="cube">
+                <img height="40" src="./assets/img/growthhub-white-small-1.svg" alt="">
+                <span class="grid-tx">5K+</span>
+                <span class="grid-small-tx">profiles and counting</span>
+              </div>
             </div>
           </div>
         </div>
       </div> <!-- fine bg grey == sezione celeste -->
       <div class="container">
         <div class="row">
-          <div class="col-25 bg-blue h2 light-border">
-
+          <div class="col-25 h2 centered">
+            <div class="wid-60 pad-tb al-left">
+              <h1 class="pad-tb">64,500</h1>
+              <p class="al-left subtitle-small">customers in over <b>100</b> countries growing their businesses with HubSpot</p>
+            </div>
           </div>
-          <div class="col-75 bg-blue h2">
+          <div class="col-75 h2">
+            <div class="wid-60 pad-tb al-left">
+              <table class="pad-tb">
+                <tr>
+                  <td class="pad-cel"><img width="130" src="./assets/img/atlasian.webp" alt=""></td>
+                  <td class="pad-cel"><img width="130" src="./assets/img/doordash.webp" alt=""></td>
+                  <td class="pad-cel"><img width="130" src="./assets/img/g2c.webp" alt=""></td>
+                  <td class="pad-cel"><img width="130" src="./assets/img/purple.webp" alt=""></td>
+                </tr>
+                <tr>
+                  <td class="pad-cel"><img width="130" src="./assets/img/subaru.webp" alt=""></td>
+                  <td class="pad-cel"><img width="130" src="./assets/img/wistia.webp" alt=""></td>
+                  <td class="pad-cel"><img width="130" src="./assets/img/classpass.webp" alt=""></td>
+                  <td class="pad-cel"><img width="130" src="./assets/img/wm.webp" alt=""></td>
+                </tr>
+              </table>
 
+              <!-- <img width="100"src="./assets/img/atlasian.webp" alt="">
+              <img width="100"src="./assets/img/doordash.webp" alt="">
+              <img width="100"src="./assets/img/g2c.webp" alt="">
+              <img width="100"src="./assets/img/purple.webp" alt="">
+              <img width="100"src="./assets/img/subaru.webp" alt=""> -->
+            </div>
           </div>
         </div>
         <div class="row">
-          <div class="col-50 bg-blue h2 light-border">
-
+          <div class="col-50">
+            <div style="padding: 10% 0;">
+              <h1 class="pad-main-bot pad-top">Start Growing With HubSpot Today</h1>
+              <p class="pad-main-bot subtitle-small">With tools to make every part of your process more human and a support team to help you, getting started with inbounds has never been easier.</p>
+              <button class="btn-border-orange-padd" type="button" name="GetHubspotFree">GetHubspotFree</button>
+              <span style="display:block;" class="did-small">Get Started with Free tools, and upgrade as you grow.</span>
+            </div>
           </div>
-          <div class="col-50 bg-blue h2">
-
+          <div class="col-50 al-right">
+            <img style="padding-right:15%;padding-top:7%;" height="380" src="./assets/img/woman.webp" alt="">
           </div>
         </div>
 
