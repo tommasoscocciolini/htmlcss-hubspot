@@ -15,10 +15,11 @@
           <div class="row head-row1">
             <div class="col-50 al-left">
               <i class="fas fa-globe"></i>
-              <select class="lang-sel" style="margin-left:-4px;" name="lang">
-                <option value="" selected>English</option>
-                <option value="">Italiano</option>
-              </select>
+              <a class="more" href="#">English</a><i class="fas fa-chevron-down"></i>
+              <!-- <select class="lang-sel" style="margin-left:-4px;" name="lang">
+                <option value="en" selected>English</option>
+                <option value="it">Italiano</option>
+              </select> -->
               <span style="border-left:1px solid black; padding-left: 20px;" >Contact Us</span>
             </div>
             <div class="col-50 al-right">
@@ -75,27 +76,25 @@
           </div>
         </div>
         <div class="row light-border shad">
-              <div class="col-25 centered c-grid">
-                <div class="pad">
-                  <img height="125" src="./assets/img/book.svg" alt="">
-                  <button class="btn-border-orange-padd tx-interno" type="button" name="learn-more">Learn More</button>
-                </div>
+            <div class="col-25 centered c-grid">
+              <div class="pad">
+                <img height="125" src="./assets/img/book.svg" alt="">
+                <button class="btn-border-orange-padd tx-interno" type="button" name="learn-more">Learn More</button>
               </div>
-              <div class="col-75">
-                <div class="pad">
-                  <h3 class="tx-interno">Free HubSpot CRM</h3>
-                  <p class="did-int">Everything you need to organize, track, and build better relationships with leads and customers. Yes 100% free. Forever.</p>
-                  <h4 class="tx-interno" style="display:inline-block;">POPULAR FEATURE</h4> <hr style='display:inline-block; width:450px; margin-left: 30px;vertical-align:middle; border:.5px solid #889397;' />
+            </div>
+            <div class="col-75">
+              <div class="pad">
+                <h3 class="tx-interno">Free HubSpot CRM</h3>
+                <p class="did-int" style="width:75%;">Everything you need to organize, track, and build better relationships with leads and customers. Yes 100% free. Forever.</p>
+                <h4 class="tx-interno" style="display:inline-block;">POPULAR FEATURE</h4> <hr style='display:inline-block; width:70%; margin-left: 30px;vertical-align:middle; border:.5px solid #889397;' />
 
-                  <ul class="line-deals tx-interno">
-                    <li><i class="fas fa-check-circle"></i>Contact Insight</li>
-                    <li><i class="fas fa-check-circle"></i>Deals</li>
-                    <li><i class="fas fa-check-circle"></i>Task</li>
-                  </ul>
-                </div>
+                <ul class="line-deals tx-interno">
+                  <li><i class="fas fa-check-circle"></i>Contact Insight</li>
+                  <li><i class="fas fa-check-circle"></i>Deals</li>
+                  <li><i class="fas fa-check-circle"></i>Task</li>
+                </ul>
               </div>
-
-
+            </div>
         </div>
         <div class="row padded-section">
           <div class="col-32 light-border shad">
@@ -103,7 +102,7 @@
               <img height="115" src="./assets/img/buble.svg" alt="">
               <h3 class="tx-interno">Marketing Hub</h3>
               <p class="did-int">Marketing software to help you grow traffic, convert more visitors, and run complete inbound marketing campaigns at scale.</p>
-              <hr style="margin: 30px 0px;">
+              <hr class="hr-margin">
               <h4 class="tx-interno">POPULAR FEATURE</h4>
               <ul class="tx-interno v-list">
                 <li><i class="fas fa-check-circle"></i>Lead Generation</li>
@@ -121,7 +120,7 @@
               <img height="115" src="./assets/img/office.svg" alt="">
               <h3 class="tx-interno">Sales Hub</h3>
               <p class="did-int">Time-saving sales software that helps you get deeper insights into prospects, automate the task you hate, and close more deals faster.</p>
-              <hr style="margin: 30px 0px;">
+              <hr class="hr-margin">
               <h4 class="tx-interno">POPULAR FEATURE</h4>
               <ul class="tx-interno v-list">
                 <li><i class="fas fa-check-circle"></i>Email Tracking</li>
@@ -139,7 +138,7 @@
               <img height="115" src="./assets/img/table.svg" alt="">
               <h3 class="tx-interno">Service Hub</h3>
               <p class="did-int">Customers service software to help you connect with customers, exceed explanations, and turn them into promoters that grow your business.</p>
-              <hr style="margin: 30px 0px;">
+              <hr class="hr-margin">
               <h4 class="tx-interno">POPULAR FEATURE</h4>
               <ul class="tx-interno v-list">
                 <li><i class="fas fa-check-circle"></i>Tickets</li>
@@ -153,7 +152,7 @@
       </div>
 
       <div class="bg-cyan">
-        <div class="container w-font"> <!-- inizio bg grey == sezione celeste -->
+        <div class="container w-font"> <!--  sezione celeste -->
 
           <div class="row centered">
             <h1>Learn and grow with award-winning support and a thriving community behind you.</h1>
@@ -221,7 +220,7 @@
             </div>
           </div>
         </div>
-      </div> <!-- fine bg grey == sezione celeste -->
+      </div>
       <div class="container">
         <div class="row">
           <div class="col-25 centered">
@@ -246,12 +245,6 @@
                   <td class="pad-cel"><img width="130" src="./assets/img/wm.webp" alt=""></td>
                 </tr>
               </table>
-
-              <!-- <img width="100"src="./assets/img/atlasian.webp" alt="">
-              <img width="100"src="./assets/img/doordash.webp" alt="">
-              <img width="100"src="./assets/img/g2c.webp" alt="">
-              <img width="100"src="./assets/img/purple.webp" alt="">
-              <img width="100"src="./assets/img/subaru.webp" alt=""> -->
             </div>
           </div>
         </div>
@@ -261,22 +254,22 @@
               <h1 class="pad-main-bot pad-top">Start Growing With HubSpot Today</h1>
               <p class="pad-main-bot subtitle-small">With tools to make every part of your process more human and a support team to help you, getting started with inbounds has never been easier.</p>
               <button class="btn-border-orange-padd" type="button" name="GetHubspotFree">GetHubspotFree</button>
-              <span style="display:block;" class="did-small">Get Started with Free tools, and upgrade as you grow.</span>
+              <span style="display:block;" class="did-small">Get Started with Free tools, or get more with our premium software.</span>
             </div>
           </div>
           <div class="col-50 al-right">
-            <img style="padding-right:15%;padding-top:7%;" height="380" src="./assets/img/woman.webp" alt="">
+            <img style="padding-right:15%;padding-top:4%;" height="400" src="./assets/img/woman.webp" alt="">
           </div>
         </div>
 
       </div>
     </main>
-    <footer class="bg-grey">
+    <footer class="bg-foot">
       <div class="container">
 
         <div class="row">
           <div class="col-25">
-            <ul class="ul-foot" style="list-style:none;">
+            <ul class="ul-foot v-list">
               <li class="ul-foot-title">  <a href="#">Increase Your Traffic</a> </li>
               <li class="ul-foot-element">  <a href="#">Ad Software</a> </li>
               <li class="ul-foot-element">  <a href="#">Blog Software</a> </li>
@@ -286,7 +279,7 @@
             </ul>
           </div>
           <div class="col-25">
-            <ul class="ul-foot" style="list-style:none;">
+            <ul class="ul-foot v-list">
               <li class="ul-foot-title">  <a href="#">Connect With Leads</a> </li>
               <li class="ul-foot-element">  <a href="#">Find New Prospects</a> </li>
               <li class="ul-foot-element">  <a href="#">Email Tracking</a> </li>
@@ -296,7 +289,7 @@
             </ul>
           </div>
           <div class="col-25">
-            <ul class="ul-foot" style="list-style:none;">
+            <ul class="ul-foot v-list">
               <li class="ul-foot-title">  <a href="#">Close and Menage Leads</a> </li>
               <li class="ul-foot-element">  <a href="#">Document Tracking Tool</a> </li>
               <li class="ul-foot-element">  <a href="#">Meeting Schedule Tool</a> </li>
@@ -306,7 +299,7 @@
             </ul>
           </div>
           <div class="col-25">
-            <ul class="ul-foot" style="list-style:none;">
+            <ul class="ul-foot v-list">
               <li class="ul-foot-title">  <a href="#">Support and Tools</a> </li>
               <li class="ul-foot-element">  <a href="#">HubSpot Partners</a> </li>
               <li class="ul-foot-element">  <a href="#">Join a Local User Group</a> </li>
@@ -337,7 +330,7 @@
               <li><a href="#">Português</a></li>
               <li><a href="#">Français</a></li>
             </ul>
-            <hr style="margin:15px 0px;">
+            <hr style="margin:15px 0px;border-color:#ffffff;">
           </div>
         </div>
         <div class="bot-footer">
