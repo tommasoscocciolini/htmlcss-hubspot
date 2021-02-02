@@ -301,6 +301,18 @@ img.logo{
   margin-top: -1px;
  }
 
+.logos-grid{
+  padding: 50px 50px;
+  text-align: right;
+}
+
+.logos-grid li{
+  display: inline-block;
+  list-style: none;
+  width: 150px;
+  margin: 10px;
+  vertical-align: middle;
+}
 /*FOOTER*/
 
 [class^="ul-foot"] li a{
@@ -361,6 +373,6 @@ img.logo{
 
 .bot-footer span{
   position: absolute;
-  right: 5%;
+  right: 0;
   top: 40px;
 }
