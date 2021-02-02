@@ -200,6 +200,12 @@ img.logo{
 
 .grid-tx{
   font-size: 250%;
+  padding: 15px 0px;
+  font-weight: bold;
+}
+
+.grid-tx::after{
+  content: ' +';
 }
 
 .grid-small-tx{
@@ -231,6 +237,7 @@ img.logo{
 
 .col-32{
   width: 32%;
+  overflow: auto;
 }
 
 .col-50{
@@ -302,14 +309,14 @@ img.logo{
  }
 
 .logos-grid{
-  padding: 50px 50px;
+  padding: 100px;
   text-align: right;
 }
 
 .logos-grid li{
   display: inline-block;
   list-style: none;
-  width: 150px;
+  width: 140px;
   margin: 10px;
   vertical-align: middle;
 }
